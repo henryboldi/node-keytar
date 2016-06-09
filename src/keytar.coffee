@@ -1,4 +1,4 @@
-keytar = require('../build/Release/keytar.node')
+keytar = require('node!./build/Release/keytar.node')
 
 module.exports =
   getPassword: (service, account) ->
